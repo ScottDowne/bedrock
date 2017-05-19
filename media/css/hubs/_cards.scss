@@ -4,8 +4,6 @@
 
 @import '../../pebbles/includes/lib';
 
-@import 'cta-link';
-
 $color-burnt-orange: #9c432a;
 $card-padding: 20px;
 
@@ -67,11 +65,6 @@ $card-padding: 20px;
     @media #{$mq-tablet} {
         padding-left: $card-padding * 2;
     }
-}
-
-// the primary link within .card-content
-.card-cta {
-    @extend .cta-link;
 }
 
 .featured-image-card {
@@ -328,4 +321,3 @@ $card-padding: 20px;
         }
     }
 }
-
